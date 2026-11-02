@@ -21,7 +21,8 @@
 
 <h3>IV. Technical Findings & Walkthrough</h3>
 <p>- Findings: /home/bean/.ssh/id_rsa file SUID binary is world readable. (707) sudo privilege for nmap in Bean's account, leads to obtaining the root content and may potential even access greater information. </p><br>
-
+<pre>
+  
 ``john@TrainingGrounds:/home/Bean$ ls -la
 total 24
 drwx---rwx 3 Bean Bean 4096 Nov  2 21:11 .
@@ -30,7 +31,7 @@ drwxr-xr-x 5 root root 4096 Nov  2 20:48 ..
 -rw-r--r-- 1 Bean Bean 3771 Nov  2 20:48 .bashrc
 -rw-r--r-- 1 Bean Bean  807 Nov  2 20:48 .profile
 drwx---rwx 2 Bean Bean 4096 Nov  2 20:54 .ssh``
-
+</pre>
 Step 1: Obtaining the id_rsa through an python http server or copy and pasting the content to the attacker's computer.
 step 2: Using ssh2john.py to convert it to hash.<br>
 `````test````` <br>
