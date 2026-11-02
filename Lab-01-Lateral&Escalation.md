@@ -24,6 +24,6 @@
 <p>- Step 1: Obtaining the id_rsa through an python http server or copy and pasting the content to the attacker's computer.</p>
 
 <p>- step 2: Using ssh2john.py to convert it to hash. </p>
-```test ```
+`test`
 <p>- step 3: doing a offline dictionary attack on the hash using rockyou wordlist.</p>
 
