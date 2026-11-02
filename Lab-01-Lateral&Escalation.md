@@ -17,4 +17,13 @@
 <p>Risk severity: High. </p>
 
 <h3>III. Impact.</h3>
-<p>May gain super confidential information </p>
+<p>May gain super confidential information & may potentially compromise the system if configuration for Bean's are overlooked.</p>
+
+<h3>IV. Technical Findings & Walkthrough</h3>
+<p>- Findings: /home/bean/.ssh/id_rsa file SUID binary is world readable. (707) sudo privilege for nmap in Bean's account, leads to obtaining the root content and may potential even access greater information. </p>
+<p>- Step 1: Obtaining the id_rsa through an python http server or copy and pasting the content to the attacker's computer.</p>
+
+<p>- step 2: Using ssh2john.py to convert it to hash. </p>
+```test ```
+<p>- step 3: doing a offline dictionary attack on the hash using rockyou wordlist.</p>
+
