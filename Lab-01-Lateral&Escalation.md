@@ -30,8 +30,8 @@ drwxr-xr-x 5 root root 4096 Nov  2 20:48 ..
 -rw-r--r-- 1 Bean Bean  220 Nov  2 20:48 .bash_logout
 -rw-r--r-- 1 Bean Bean 3771 Nov  2 20:48 .bashrc
 -rw-r--r-- 1 Bean Bean  807 Nov  2 20:48 .profile
-drwx---rwx 2 Bean Bean 4096 Nov  2 20:54 .ssh````
-
+drwx---rwx 2 Bean Bean 4096 Nov  2 20:54 .ssh
+````
 
 Step 1: Obtaining the id_rsa through an python http server or copy and pasting the content to the attacker's computer.
 step 2: Using ssh2john.py to convert it to hash.<br>
