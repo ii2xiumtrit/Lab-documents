@@ -126,4 +126,4 @@ Bean@TrainingGrounds:/$
 ````
 <h3>V.Remediation </h3>
 
-Use stronger password for Bean's account & configure the file suid permission for Bean's ```.ssh``` directory within the baseline standards. 
+Use stronger password for Bean's account. configure the file suid permission for Bean's ```.ssh``` directory within the baseline standards. removing ```/usr/bin/nmap``` in ``visudo`` to not let future hacker abuse this configuration to obtain further greater information or even establish a persistent threat.
