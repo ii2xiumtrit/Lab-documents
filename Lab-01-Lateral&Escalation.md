@@ -129,10 +129,49 @@ Bean@TrainingGrounds:/$
 Use stronger password for Bean's account. configure the file suid permission for Bean's ```.ssh``` directory within the baseline standards. removing ```/usr/bin/nmap``` in ``visudo`` to not let future hacker abuse this configuration to obtain further greater information or even establish a persistent threat.
 
 #Reproducing the vulnerability.
+
 <details>
 <summary>Reproduce.</summary>
 
+## Making a ssh key for Bean.
+````
+Bean@TrainingGrounds:~$ ssh-keygen
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/Bean/.ssh/id_ed25519): 
+/home/Bean/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? y
+Enter passphrase for "/home/Bean/.ssh/id_ed25519" (em
+pty for no passphrase): (abc123)
+Enter same passphrase again: (abc123)
+Your public key has been saved in /home/Bean/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:yfsevxf1wKnFwZt3gGxY68H0NxfjG4jvjfF3DiX6eIM Bean@TrainingGrounds
+````
 
+### making authorized key.
+````
+Bean@TrainingGrounds:~$ cd ./.ssh
+Bean@TrainingGrounds:~/.ssh$ ls
+id_ed25519  id_ed25519.pub
+Bean@TrainingGrounds:~/.ssh$ touch authorized_keys
+Bean@TrainingGrounds:~/.ssh$ ls
+authorized_keys  id_ed25519  id_ed25519.pub
+Bean@TrainingGrounds:~/.ssh$ chmod 600 authorized_keys 
+Bean@TrainingGrounds:~/.ssh$ cat id_ed25519.pub >> authorized_keys 
+Bean@TrainingGrounds:~/.ssh$
+````
+### Making Bean's home directory accessible for everyone.
+````
+Bean@TrainingGrounds:~/.ssh$ 
+Bean@TrainingGrounds:~/.ssh$ chmod 707 ~
+````
 
-  
+### BEFORE DOING ANY PENETRATION.
+I stumble across a issue during SSH'ing to Bean's account. SSH is very picky and strict on SUID binary permission. You may wanna change some permission before penetrating. or else you'll headbutt a wall from frustration 
+
+````
+chmod 770 /home/Bean
+chmod 770 /home/Bean/.ssh
+chmod 660 /home/Bean/.ssh/authorized_keys
+```
 </details>
