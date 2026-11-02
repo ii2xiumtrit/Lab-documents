@@ -8,5 +8,7 @@
 <h3>Lab Documents</h3>
 <details>
   <summary>Lateral movement & privilege escalation</summary>
-  <p>N/A</p>
+  <p> 
+  <a href="https://github.com/ii2xiumtrit/Lab-documents/blob/DOCS/Lab-01-Lateral%26Escalation">test</a>
+  </p>
 </details>
