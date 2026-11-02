@@ -6,6 +6,7 @@
 <hr>
 
 <h3>Lab Documents</h3><br>
+<hr>
 <details>
   <summary>Lateral movement & privilege escalation </summary>
   <ul>
@@ -15,4 +16,7 @@
 <details>
   <summary>Local File Inclusion in a website. </summary>
   N/A (No documents yet)
+</details>
+<details>
+  
 </details>
