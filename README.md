@@ -9,6 +9,6 @@
 <details>
   <summary>Lateral movement & privilege escalation</summary>
   <p> 
-  <a href="https://github.com/ii2xiumtrit/Lab-documents/blob/DOCS/Lab-01-Lateral%26Escalation">test</a>
+  <a href="https://github.com/ii2xiumtrit/Lab-documents/blob/DOCS/Lab-01-Lateral%26Escalation">Lab 01</a>
   </p>
 </details>
