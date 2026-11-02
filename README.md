@@ -12,3 +12,7 @@
     <li><a href="https://github.com/ii2xiumtrit/Lab-documents/blob/DOCS/Lab-01-Lateral%26Escalation">LAB 01</a></li>
   </ul>
 </details>
+<details>
+  <summary>Local File Inclusion in a website. </summary>
+  N/A (No documents yet)
+</details>
