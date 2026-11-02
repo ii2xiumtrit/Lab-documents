@@ -2,6 +2,7 @@
   Lab 01 | Lateral movement & Basic Privilege Escalation.
 </h1>
 <small align="center">This documentation will be formatted into a formal pentest report, to practice and also to look back and see see where I can improve.</small>
+<small align="center">If you want to reproduce the misconfiguration or vulnerability, scroll down to the end and you'll see the steps to reproduce it in your own Lab/VM.</small>
 
 <h3>
   <strong>Lab Report: </strong> 01 | A Misconfiguration in Bean's directory.
@@ -173,5 +174,6 @@ I stumble across a issue during SSH'ing to Bean's account. SSH is very picky and
 chmod 770 /home/Bean
 chmod 770 /home/Bean/.ssh
 chmod 660 /home/Bean/.ssh/authorized_keys
-```
+````
+
 </details>
