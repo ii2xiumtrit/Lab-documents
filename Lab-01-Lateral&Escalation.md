@@ -8,5 +8,11 @@
 </h3>
 
 <h3>
-  <b>I.</b>
+  I. Executive Summary
 </h3>
+<p>-Objective: Use bean's misconfiguration to gain excessive control or obtain confidential information.</p>
+<p>-Result: <i>Success</i>, Obtained confidential information. </p>
+
+<h3>II. Risk Rating.</h3>
+<p>Risk severity: High. </p>
+
