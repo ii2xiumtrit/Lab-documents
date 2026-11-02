@@ -3,10 +3,10 @@
 </h1>
 <hr>
 <p align="center"><u>This is for educational purposes</u>, executed in a isolated environment using a virtual machine. And I gave my self permission and penetrate and do this kind of stuff for education. Don't try this without proper permission or without a isolated environment.</p>
+<hr>
 
-
-For more details:
+<h3>Lab Documents</h3>
 <details>
-  <summary>Click here to see the secret details</summary>
-  <p>Test content goes here!</p>
+  <summary>Lateral movement & privilege escalation</summary>
+  <p>N/A</p>
 </details>
