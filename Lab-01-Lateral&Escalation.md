@@ -7,4 +7,6 @@
   <strong>Lab Report: </strong> 01 | A Misconfiguration in Bean's directory.
 </h3>
 
-<
+<h3>
+  <b>I.</b>
+</h3>
