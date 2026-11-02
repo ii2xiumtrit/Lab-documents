@@ -5,6 +5,8 @@
 <br>
 <small align="center">If you want to reproduce the misconfiguration or vulnerability, scroll down to the end and you'll see the steps to reproduce it in your own Lab/VM.</small>
 
+or click here [HERE](https://github.com/ii2xiumtrit/Lab-documents/blob/main/Lab-01-Lateral%26Escalation.md#reproducing-the-vulnerability)
+
 <h3>
   <strong>Lab Report: </strong> 01 | A Misconfiguration in Bean's directory.
 </h3>
