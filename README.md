@@ -1,3 +1,3 @@
-<h1 style="text-alight: center;">
+<h1 style="text-align: center;">
   WARNING
 </h1>
