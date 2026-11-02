@@ -7,5 +7,6 @@
 
 For more details:
 <details>
-  <p>Test</p>
+  <summary>Click here to see the secret details</summary>
+  <p>Test content goes here!</p>
 </details>
